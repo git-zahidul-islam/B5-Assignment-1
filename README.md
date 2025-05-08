@@ -8,8 +8,7 @@ let num = 5;  // TypeScript infers num as 'number'
 num = "Hello"; // Error: Type 'string' is not assignable to type 'number'
 
 let message = "Hello";  // TypeScript infers message as 'string'
-
-
+```
 
 ## 6.How does TypeScript help in improving code quality and project maintainability?
 
@@ -35,3 +34,4 @@ enum Role {
 }
 
 const userRole: Role = Role.Admin;  // Type safety ensured
+```
